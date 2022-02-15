@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/srp-client-dashboard-frontend.github.io/static/css/main.e6c13ad2.css",
-    "main.js": "/srp-client-dashboard-frontend.github.io/static/js/main.137052d3.js",
-    "index.html": "/srp-client-dashboard-frontend.github.io/index.html",
-    "main.e6c13ad2.css.map": "/srp-client-dashboard-frontend.github.io/static/css/main.e6c13ad2.css.map",
-    "main.137052d3.js.map": "/srp-client-dashboard-frontend.github.io/static/js/main.137052d3.js.map"
+    "main.css": "/srp-client-dashboard-frontend/static/css/main.e6c13ad2.css",
+    "main.js": "/srp-client-dashboard-frontend/static/js/main.137052d3.js",
+    "index.html": "/srp-client-dashboard-frontend/index.html",
+    "main.e6c13ad2.css.map": "/srp-client-dashboard-frontend/static/css/main.e6c13ad2.css.map",
+    "main.137052d3.js.map": "/srp-client-dashboard-frontend/static/js/main.137052d3.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
