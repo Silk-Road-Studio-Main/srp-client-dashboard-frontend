@@ -11,9 +11,9 @@ export default function CalltoActionBar() {
                     <Typography variant="h4" align="center" padding={4} component="h2">
                         Are you interested in our other services too?
                     </Typography>
-                    <Stack spacing={2} direction="row" sx={{ justifyContent: 'center', pb: 3 }}>
-                        <Button variant="contained">Learn More</Button>
-                        <Button variant="outlined">Contact Us</Button>
+                    <Stack spacing={2} direction="row" sx={{ justifyContent: 'center', pb: 4 }}>
+                        <Button variant="contained" sx={ { borderRadius: 28 } }>Learn More</Button>
+                        <Button variant="outlined" sx={ { borderRadius: 28 } }>Contact Us</Button>
                     </Stack>
                 </Grid>
             </Container>
