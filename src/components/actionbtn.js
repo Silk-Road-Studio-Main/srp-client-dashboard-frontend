@@ -1,35 +1,18 @@
-import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';
 import { keyframes } from '@mui/system';
 
-const spin = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+const blink = keyframes`
+  from { opacity: 1; }
+  to { opacity: 0.7; }
 `;
 
-const RotatedBox = styled('div')({
-  backgroundColor: 'pink',
-  width: 30,
+const BlinkedBtn = styled('button')({
+  backgroundColor: 'red',
+  width: 100,
   height: 30,
-  animation: `${spin} 1s infinite ease`,
+  animation: `${blink} 1s ease-in-out infinite`,
 });
 
-export default function ActionBtn() {
-  return (
-    <>
-      <RotatedBox />
-      <Box
-        sx={{
-          backgroundColor: 'red',
-          width: 30,
-          height: 30,
-          animation: `${spin} 1s infinite ease`,
-        }}
-      />
-    </>
-  );
+export default function ActionButton() {
+  return <BlinkedBtn />;
 }
