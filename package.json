@@ -2,7 +2,8 @@
   "name": "srp-client-dashboard",
   "version": "0.1.0",
   "engines": {
-    "npm": "8.x"
+    "node": "16.14.0",
+    "npm": "8.3.1"
   },
   "private": true,
   "homepage": "https://silk-road-studio-main.github.io/srp-client-dashboard-frontend",
