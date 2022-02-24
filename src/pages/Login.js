@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useNavigate } from 'react-router-dom';
 
 
 const theme = createTheme();
@@ -26,6 +27,8 @@ export default function Login() {
       password: data.get('password'),
     });
   };
+
+  let navigate =  useNavigate();
 
   return (
     <ThemeProvider theme={theme}>
@@ -75,6 +78,9 @@ export default function Login() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
+              onClick ={()=>{
+                navigate("/");
+              }}
             >
               Sign In
             </Button>
