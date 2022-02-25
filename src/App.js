@@ -7,8 +7,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="srp-client-dashboard-frontend/" element={<Home />} />
+        <Route path="srp-client-dashboard-frontend/login" element={<Login />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
