@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/srp-client-dashboard-frontend/static/css/main.e6c13ad2.css",
-    "main.js": "/srp-client-dashboard-frontend/static/js/main.8834f9e3.js",
+    "main.js": "/srp-client-dashboard-frontend/static/js/main.0151b0f2.js",
     "static/media/login-bg.png": "/srp-client-dashboard-frontend/static/media/login-bg.ca284b0269d77d6a5dde.png",
     "index.html": "/srp-client-dashboard-frontend/index.html",
     "main.e6c13ad2.css.map": "/srp-client-dashboard-frontend/static/css/main.e6c13ad2.css.map",
-    "main.8834f9e3.js.map": "/srp-client-dashboard-frontend/static/js/main.8834f9e3.js.map"
+    "main.0151b0f2.js.map": "/srp-client-dashboard-frontend/static/js/main.0151b0f2.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.8834f9e3.js"
+    "static/js/main.0151b0f2.js"
   ]
 }
