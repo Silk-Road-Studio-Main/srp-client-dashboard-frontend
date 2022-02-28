@@ -116,7 +116,7 @@ export default function Login() {
                 variant="contained"
                 sx={{ mt: 3, mb: 2, boxShadow: 4, borderRadius: 1 }}
                 onClick ={()=>{
-                  navigate("/home");
+                  navigate("/srp-client-dashboard-frontend/home");
                 }}
               >
                 Sign In
