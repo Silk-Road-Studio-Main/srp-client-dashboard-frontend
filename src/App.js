@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="srp-client-dashboard-frontend/" element={<Home />} />
-        <Route path="srp-client-dashboard-frontend/login" element={<Login />} />
-        {/* <Route path="*" element={<ErrorPage />} /> */}
+        <Route path="srp-client-dashboard-frontend/home" element={<Home />} />
+        <Route path="srp-client-dashboard-frontend/" element={<Login />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
 
